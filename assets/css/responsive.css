@@ -1,0 +1,87 @@
+.navbar-light .navbar-toggler {
+    background: #fff;
+}
+
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+      .userIcon {
+        padding: 10px!important;
+    }
+    .companyLogo img {
+        width: 115px!important;
+    }
+    .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active, .nav-tabs .nav-link {
+        margin: 10px!important;
+    }
+    a#nav-home-tab:after{
+        margin-left: -60px!important;
+    }
+    a#nav-profile-tab:after{
+        width: 25px!important;
+        margin-left: -65px!important;
+    }
+    a#nav-contact-tab:before{
+            width: 42px!important;
+    }
+    a#nav-contact-tab:after{
+            width: 35px!important;
+    }
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+    span.Seats {
+        margin-left: 0!important;
+        padding-right: 5!importantpx;
+    }
+    .companyLogo img {
+        width: 68px!important;
+    }
+    .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active, .nav-tabs .nav-link{
+        margin: 17px!important;
+    }
+    a#nav-home-tab:after{
+        margin-left: -52px!important;
+    }
+    a#nav-profile-tab:after{
+        margin-left: -20px!important;
+    }
+    a#nav-contact-tab:before{
+        width: 37px!important;
+    }
+    a#nav-contact-tab:after{
+        right: -6%!important;
+    }
+    #timer div{
+        padding: 4px!important;
+        font-size: 40px!important;
+    }
+    .userIcon{
+        padding: 5px!important;
+        margin-top: 10px!important;
+    }
+    .stick:after{
+        left: -30px!important;
+        top: 17px!important;
+    }
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+    a#nav-home-tab:after{
+        display: none!important;
+    }
+    a#nav-profile-tab:after{
+        display: none!important;
+    }
+    a#nav-contact-tab:before{
+        display: none!important;
+    }
+    a#nav-contact-tab:after{
+       display: none!important;
+    }
+}
