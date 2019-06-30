@@ -18,7 +18,7 @@ new WOW().init();
     
 });
 
-/********countTimerArea*******/
+/********jqueryCountDownTimer*******/
 function makeTimer() {
 
 	//		var endTime = new Date("29 April 2018 9:56:00 GMT+01:00");	
